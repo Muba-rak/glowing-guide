@@ -80,7 +80,7 @@
         height: 60px;
         color: gray;
         font-weight: 300;
-        border: 1px solid blue;
+       
     }
     
     .flex_input .input2 {
@@ -98,8 +98,6 @@
         height: 60px;
         color: gray;
         font-weight: 300;
-        border: 1px solid red;
-    
     }
     .sec9_b .input0 {
         width: 85%;
