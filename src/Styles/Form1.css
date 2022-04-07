@@ -10,8 +10,9 @@
         width: 100%;
     }
     .form_btn{
+        margin: auto;
         margin-top: 20px;
-        width: 250px;
+        /* width: 250px; */
         height:70px;
         background-color: #0f0f4d;
         color: white;
@@ -67,5 +68,15 @@
     .accordion2 img{
         width: 400px;
 
+    }
+    .form_btn {
+        margin: auto;
+        margin-top: 20px;
+        width: 250px;
+        height: 70px;
+        background-color: #0f0f4d;
+        color: white;
+        font-size: 30px;
+        font-weight: 700;
     }
 }

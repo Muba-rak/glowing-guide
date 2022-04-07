@@ -41,7 +41,7 @@ const Form1 = () => {
             <input type='text' placeHolder= 'Select Country' className='input0' />
           </div>
 
-          <button className='form_btn'><h4>Next Step >></h4></button>
+          <button className='form_btn'><h4>Next Step >>></h4></button>
         </form>
         <br />
       </div>

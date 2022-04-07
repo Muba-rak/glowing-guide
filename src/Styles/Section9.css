@@ -36,14 +36,11 @@
         display: flex;
         justify-content: space-between;
     }
-    .flex_input input{
-        width: 100px;
-        height: 60px;
-        padding-left: 5px;
-        color: gray;
-        font-weight: 300;
-
+    .sec9_b form{
+        width: 90%;
+        margin: auto;
     }
+    
     .section9 button{
         margin-top: 20px;
         width: 250px;
@@ -69,6 +66,46 @@
         display: flex;
         justify-content: space-between;
     }
+    .flex_input {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin: auto;
+    
+    }
+    
+    .flex_input .input1 {
+        display: none;
+        width: 85%;
+        height: 60px;
+        color: gray;
+        font-weight: 300;
+        border: 1px solid blue;
+    }
+    
+    .flex_input .input2 {
+        display: none;
+        width: 85%;
+        height: 60px;
+        color: gray;
+        font-weight: 300;
+        border: 1px solid blue;
+    }
+    
+    .flex_input .input3 {
+        width: 85%;
+        margin: auto;
+        height: 60px;
+        color: gray;
+        font-weight: 300;
+        border: 1px solid red;
+    
+    }
+    .sec9_b .input0 {
+        width: 85%;
+        height: 60px;
+        
+    }
     .dark_btn button{
         background-color: #0f0f4d;
         color: white;
@@ -77,6 +114,9 @@
     .last_p p{
         font-size: 14px;
         font-weight: 200;
+    }
+    form h6{
+        margin: auto;
     }
 }
 
@@ -103,18 +143,21 @@
     }
     .flex_input{
         display: flex;
+        flex-direction: row;
         justify-content: space-between;
         width: 800px;
         margin: auto;
 
     }
     .flex_input .input1{
+        display: block;
         width: 520px;
         height: 60px;
         color: gray;
         font-weight: 300;
     }
     .flex_input .input2{
+        display: block;
         width: 230px;
         height: 60px;
         color: gray;
