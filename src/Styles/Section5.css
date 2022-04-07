@@ -1,0 +1,102 @@
+@media (min-width: 320px) {
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    .section5{
+        margin-top: 30px;
+
+    }
+    .section5 section{
+        width: 90%;
+        margin: auto;
+        margin-bottom: 20px;
+        border-bottom: 2px solid grey;
+    }
+    .sec5_a{
+        background-color: red;
+    }
+    .sec5_btn button{
+        background-color: orangered;
+        color: white;
+        border-style: none;
+    }
+    .italic_text{
+        font-style: italic;
+    }
+    .sec5_btn p {
+        color: gainsboro;
+    }
+    .sec5_b_2 p {
+        text-align: left;
+    }
+    .bt_a{
+        text-align: left;
+    }
+    .bt_a p{
+        text-align: left;
+    }
+    .section5 li{
+        color: #002462;
+        text-align: left;
+    }
+    
+}
+
+@media (min-width: 375px) {}
+
+@media (min-width: 425px) {}
+
+@media (min-width: 768px) {}
+
+@media (min-width: 1024px) {
+    .sec5_a h1{
+        font-size: 60px;
+    }
+    .sec5_b_2 p{
+        text-align: left;
+        font-size: 22px;
+        line-height: 24px;
+    }
+    .bt_a p{
+        text-align: left;
+        font-size: 22px;
+        line-height: 24px;
+    }
+    .sec5_b{
+        display: flex;
+        justify-content: space-between;
+    }
+    .sec5_b_1{
+        flex: 1;
+    }
+    .sec5_b_2{
+        flex: 2;
+        padding-left: 40px;
+    }
+    .bonus_two{
+        display: flex;
+        justify-content: space-between;
+    }
+    .bt_a{
+        flex: 2;
+    }
+    .bt_a div{
+        width: 530px;
+        margin: auto;
+    }
+    .bt_b{
+        flex: 1;
+        padding-left: 40px;
+        
+    }
+    .bt_a_1{
+        width: 400px;
+        margin: auto;
+    }
+    .bt_a img{
+        width: 400px;
+        margin: auto;
+    }
+}

@@ -1,0 +1,32 @@
+footer {
+    background-color: #002462;
+    padding: 3rem 2rem;
+    text-align: center;
+}
+
+footer img {
+    display: block;
+    margin: auto;
+    width: 12rem;
+    margin-bottom: 1rem;
+}
+
+footer :nth-child(2) {
+    margin-bottom: 1rem;
+}
+
+footer div a {
+    margin-left: 1rem;
+    text-decoration: none;
+    color: white;
+}
+
+footer div a:hover {
+    text-decoration: underline;
+    color: white;
+}
+
+.footer_div_2 p{
+    color: gainsboro;
+    font-size: 14px;
+}

@@ -1,0 +1,33 @@
+@media (min-width: 320px) {
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    .section10{
+        display: none;
+    }
+    .section10 p{
+        color: gray;
+        text-align: center;
+        font-size: 20px;
+    }
+}
+
+@media (min-width: 375px) {}
+
+@media (min-width: 425px) {}
+
+@media (min-width: 768px) {}
+
+@media (min-width: 1024px) {
+    .section10 {
+        display: block;
+    }
+    .section10 div{
+        width: 650px;
+        margin: auto;
+
+    }
+
+}

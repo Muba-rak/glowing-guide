@@ -1,0 +1,43 @@
+@media (min-width: 320px) {
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    .sec8_main{
+        width: 90%;
+        margin: auto;
+        border: 3px solid black;
+    }
+    .sec8_bottom{
+        width: 90%;
+        margin: auto;
+    }
+    .sec8_a{
+        background-color:#002462;
+        color: white;
+        text-align: center;
+        height: 200px;
+    }
+    .sec8_c{
+        text-align: center;
+    }
+    .sec8_d h1{
+        color: red;
+
+    }
+}
+
+@media (min-width: 375px) {}
+
+@media (min-width: 425px) {}
+
+@media (min-width: 768px) {}
+
+@media (min-width: 1024px) {
+    .sec8_d h1{
+        color: red;
+        font-size: 90px;
+    
+    }
+}

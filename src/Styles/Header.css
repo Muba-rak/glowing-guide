@@ -1,0 +1,57 @@
+@media (min-width: 320px) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .header{
+    border-bottom: 1px lavender dotted;
+    background-color: blue;
+  }
+  .header img {
+    width: 200px;
+    display: inline-block;
+  }
+  .header h4 {
+    font-family: "Helvetica Neue Medium Extended";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    display: flex;
+    color: #fff;
+  }
+  .header_right {
+    text-align: left;
+    margin-left: 0px;
+  }
+}
+@media (min-width: 375px) {
+}
+@media (min-width: 425px) {
+}
+@media (min-width: 768px) {
+}
+@media (min-width: 1024px) {
+  .header {
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    width: 100%;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.06);
+  }
+  .header h4 {
+    font-size: 22px;
+    line-height: 26px;
+  }
+  .header_right {
+    width: 500px;
+    margin-left: 600px;
+  }
+}
+@media (min-width: 1024px) {
+  .header_right {
+    width: 500px;
+    margin-left: 500px;
+  }
+
+}

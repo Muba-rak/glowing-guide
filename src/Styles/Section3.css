@@ -1,0 +1,95 @@
+@media (min-width: 320px) {
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    .section3{
+        width: 90%;
+        margin: auto;
+        margin-top: 30px;
+        border: 2px solid black;
+    }
+    .red_div h1 {
+        color: red;
+    }
+    
+    .red_div span {
+        text-decoration: line-through;
+    }
+    .section3 button {
+        background-color: orangered;
+        border-radius: 7px;
+        color: #fff;
+        width: 90%;
+        height: 170px;
+        margin: auto;
+    }
+    .secc3_big {
+        margin-bottom: 20px;
+    }
+    
+    .secc3_big h1 {
+        font-size: 25px;
+        font-weight: 700;
+        line-height: 40px;
+    }
+    
+    .secc3_big p {
+        font-size: 16px;
+        font-weight: 500;
+        color: #303088;
+        line-height: 20px;
+    }
+    
+}
+
+@media (min-width: 375px) {}
+
+@media (min-width: 425px) {}
+
+@media (min-width: 768px) {}
+
+@media (min-width: 1024px) {
+    .section3 img{
+        width: 90%;
+    }
+    .red_div h1 {
+        color: red;
+        font-size: 80px;
+    }
+    .sec3_pp p{
+        font-size: 30px;
+        
+    }
+    .sec3_h4 h4{
+        font-size: 40px;
+        font-weight: 700;
+    }
+    .sec3_h4 h1{
+        font-size: 80px;
+        font-weight: bold;
+    }
+    .sec3_btn h3{
+        font-size: 80px;
+    }
+    .sec3_btn p{
+        color: gainsboro;
+        font-size: 28px;
+    }
+    .secc3_big{
+        margin-bottom: 20px;
+    }
+    .secc3_big h1{
+        font-size: 60px;
+        font-weight: 700;
+        line-height: 40px;
+    }
+    .secc3_big p{
+        font-size: 40px;
+        font-weight: 500;
+        color: #303088;
+        line-height: 20px;
+    }
+   
+}

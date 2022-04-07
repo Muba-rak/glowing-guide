@@ -1,0 +1,118 @@
+@media (min-width: 320px) {
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    .section7{
+        width: 90%;
+        margin: auto;
+    }
+    section{
+        text-align: left;
+    }
+    .sec7_a h1{
+        text-align: center;
+    }
+    .section7 div{
+        margin-top: 20px;
+    }
+    .sec7_d{
+        margin: auto;
+    }
+    .sec7_d button{
+        background-color: orangered;
+        color: white;
+        border-style: none;
+
+    }
+    .sec7_d p{
+        color: gainsboro;
+    }
+}
+
+@media (min-width: 375px) {}
+
+@media (min-width: 425px) {}
+
+@media (min-width: 768px) {}
+
+@media (min-width: 1024px) {
+    .sec7_a h1 {
+        font-size: 70px;
+        font-weight: 900;
+    }
+    .sec7_b{
+        display: flex;
+        justify-content: space-between;
+    }
+    .sec7_b_1{
+        flex: 1;
+    }
+    .sec7_b_2{
+        flex: 1;
+    }
+    .sec7_b p{
+        font-size: 22px;
+        line-height: 26px;
+    }
+    .sec7_d {
+        width: 600px;
+        margin: auto;
+    }
+    
+    .sec7_d button {
+        background-color: orangered;
+        color: white;
+        border-style: none;
+        margin: auto;
+        width: 600px;
+    
+    }
+    .sec7_f{
+        display: flex;
+        justify-content: space-around;
+    }
+    .sec7_f_1{
+        flex: 1;
+    }
+    .sec7_f_2 {
+        flex: 1;
+    }
+    .sec7_h{
+        display: flex;
+        justify-content: space-around;
+    }
+    .sec7_h div{
+        flex: 1;
+    }
+    .sec7_c p {
+        font-size: 22px;
+        line-height: 26px;
+    }
+    .sec7_d p {
+        font-size: 22px;
+        line-height: 26px;
+    }
+    .sec7_e p {
+        font-size: 22px;
+        line-height: 26px;
+    }
+    .sec7_f p {
+        font-size: 22px;
+        line-height: 26px;
+    }
+    .sec7_g p {
+        font-size: 22px;
+        line-height: 26px;
+    }
+    .sec7_h p {
+        font-size: 22px;
+        line-height: 26px;
+    }
+    .sec7_i p {
+        font-size: 22px;
+        line-height: 26px;
+    }
+    
+}

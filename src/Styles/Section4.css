@@ -1,0 +1,117 @@
+@media (min-width: 320px) {
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    .section4{
+        border: 3px solid red;
+    }
+    .sec4_main{
+        width: 90%;
+        margin: auto;
+    }
+    .sec4_a {
+        background-color: orangered;
+        padding-top: 20px;
+    }
+    .sec4_a_2 {
+        color: white;
+    }
+    .sec4_b{
+        margin-top: 30px;
+    }
+    .sec4_e{
+        border: 2px solid red;
+        color: red;
+    }
+    .sec4_f_1{
+        font-size: 20px;
+        text-align: left;
+    }
+    .section4 button {
+        background-color: orangered;
+        border-radius: 7px;
+        color: #fff;
+        width: 90%;
+        height: 170px;
+        margin: auto;
+    }
+}
+
+@media (min-width: 375px) {}
+
+@media (min-width: 425px) {}
+
+@media (min-width: 768px) {}
+
+@media (min-width: 1024px) {
+    .sec4_a {
+        display: flex;
+        justify-content: space-between;
+    }
+    .sec4_a_1 img{
+        width: 700px;
+        margin-left: 10px;
+
+    }
+    .sec4_a_1{
+        flex: 1;
+    }
+    .sec4_a_2{
+        color: white;
+        flex: 3;
+    }
+    .sec4_a_2 p{
+        font-size: 2rem;
+    }
+    .sec4_a_2 h2{
+        font-size: 60px;
+        font-weight: bold;
+    }
+    .sec4_a_2 h1{
+        font-size: 100px;
+        font-weight: bolder;
+    }
+    .sec4_b p{
+        font-size: 22px;
+    }
+    .sec4_d h1{
+        font-size: 80px;
+        font-weight: 800;
+    }
+    .sec4_d p {
+        font-size: 40px;
+        font-weight: 700;
+    }
+    .sec4_e h1{
+        font-size: 50px;
+    }
+    .sec4_f{
+        display: flex;
+        justify-content: space-between;
+    }
+    .sec4_f_1{
+        flex: 1;
+    }
+    .sec4_f_2 {
+        flex: 1;
+    }
+    .Hsection4___>div :nth-child(4) {
+        font-weight: bold;
+    }
+    
+    .Hsection4___>div :nth-child(5) {
+        font-weight: bold;
+        font-size: 3rem;
+        text-align: center;
+        padding-right: 1rem;
+    }
+    
+    .Hsection4___>div :nth-child(6) {
+        font-weight: bold;
+        font-size: 1.5rem;
+        text-align: center;
+        padding-right: 1rem;
+    }
+}
