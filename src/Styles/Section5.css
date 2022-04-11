@@ -14,8 +14,36 @@
         margin-bottom: 20px;
         border-bottom: 2px solid grey;
     }
+    .edit_img{
+        width: 270px;
+    }
     .sec5_a{
         background-color: red;
+    }
+    .sec5_a_2 {
+        padding: 0px 10px 0px 7px;
+    }
+    .sec5_a_2 p{
+        font-size: 26px;
+        line-height: 1.3em;
+        text-align: left;
+        font-weight: 300;
+    }
+    .sec5_a_2 h1{
+        font-size: 34px;
+        line-height: 1em;
+        font-weight: 700;
+    }
+    .h1_editt h1{
+        font-size: 28px !important;
+        color: rgb(28, 67, 119);
+        font-weight: 900 !important;
+        text-align: center;
+    }
+    .h1_editt h3{
+        color: rgb(28, 67, 119);
+        font-weight: 700 !important;
+        text-align: center;
     }
     .sec5_btn button{
         background-color: orangered;
@@ -28,11 +56,48 @@
     .sec5_btn p {
         color: gainsboro;
     }
-    .sec5_b_2 p {
+    .sec5_b_1 h1{
+        font-size: 26px !important;
+        font-weight: 900 !important;
+        text-align: center;
+        color: rgb(28, 67, 119);
+    }
+    .sec5_b_1 p{
+        text-align: center;
+        font-size: 18px !important;
+        font-weight: 700;
+    }
+    .dis_none_img{
+        display: none;
+    }
+    .sec5_b_2  {
+        padding-top: 20px;
+        font-size: 16px !important;
         text-align: left;
+        line-height: 1.3em;
     }
     .bt_a{
         text-align: left;
+    }
+    .bt_b h1{
+        font-size: 28px !important;
+        color: rgb(28, 67, 119);
+        font-weight: 900 !important;
+        text-align: center;
+    }
+    .bt_b h2{
+        font-size: 28px !important;
+        color: rgb(28, 67, 119);
+        font-weight: 900 !important;
+        text-align: center;
+    }
+    .bt_b p{
+        text-align: center;
+        font-size: 18px !important;
+        font-weight: 700;
+    }
+    .another_img{
+        display: none;
     }
     .bt_a p{
         text-align: left;
@@ -40,6 +105,20 @@
     .section5 li{
         color: #002462;
         text-align: left;
+    }
+    .next{
+        padding-top: 40px;
+    }
+    .next h1{
+        font-size: 28px !important;
+        color: rgb(28, 67, 119);
+        font-weight: 900 !important;
+        text-align: center;
+    }
+    .next h2 {
+        color: rgb(28, 67, 119);
+        font-size: 26px;
+        text-align: center;
     }
     
 }
@@ -57,16 +136,19 @@
     .sec5_b_2 p{
         text-align: left;
         font-size: 22px;
-        line-height: 24px;
     }
     .bt_a p{
         text-align: left;
         font-size: 22px;
-        line-height: 24px;
+        line-height: 1em;
+    }
+    .sec5_a_2 {
+        margin-left: 30px;
     }
     .sec5_b{
         display: flex;
         justify-content: space-between;
+        margin-top: 30px;
     }
     .sec5_b_1{
         flex: 1;
@@ -74,6 +156,18 @@
     .sec5_b_2{
         flex: 2;
         padding-left: 40px;
+    }
+    .sec5_b_2 {
+        padding-top: 20px;
+        font-size: 22px !important;
+        text-align: left;
+        line-height: 1.3em;
+    }
+    .dis_none_img {
+        display: block;
+    }
+    .another_img {
+        display: block;
     }
     .bonus_two{
         display: flex;
@@ -98,5 +192,31 @@
     .bt_a img{
         width: 400px;
         margin: auto;
+    }
+    .next{
+        width: 80%;
+        margin: auto;
+    }
+    .next h1 {
+        font-size: 56px !important;
+        color: rgb(28, 67, 119);
+        font-weight: 900 !important;
+        text-align: center;
+    }
+    .next h2{
+        text-align: center;
+        font-size: 30px;
+    }
+    .reduce{
+        width: 400px;
+        height: auto;
+        margin: auto;
+        margin-left: 50px;
+    }
+    .this_div{
+        width: 400px;
+        height: auto;
+        margin: auto;
+        
     }
 }

@@ -47,7 +47,7 @@ const Section1 = () => {
                                 <h3>Challenge Starts On Apr 18th...</h3>
                             </div>
                             <img src={Bord} alt='logo' className = 'img-fluid bord' />
-                            <br />
+                           
                             <div className='sm_1'>
                                 <div className='sm_2'> 
                                     <div><h1 className='day'> </h1></div>
@@ -66,7 +66,6 @@ const Section1 = () => {
                                     <p>Seconds</p>
                                 </div>
                             </div>
-                            <br/>
                             <div className='sm_h3'>
                                 <h3>Registration Ends Apr 3rd At 10PM ET!</h3>
                             </div>
@@ -76,7 +75,7 @@ const Section1 = () => {
                             </div>
                             
                            
-                            <button><h3>Join the Challenge Now</h3><p>I want daily training, Live Coaching and accountability from day to day 30</p></button>
+                            <button><h3>Join the Challenge Now</h3><p className='btnnn_p'>I want daily training, Live Coaching and accountability from day to day 30</p></button>
                         </div>
                     </div>
                 </Col>

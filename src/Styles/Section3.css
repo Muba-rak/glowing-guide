@@ -24,23 +24,44 @@
         width: 90%;
         height: 170px;
         margin: auto;
+        padding: 0px 5px 0px 5px;
     }
     .secc3_big {
         margin-bottom: 20px;
     }
     
     .secc3_big h1 {
-        font-size: 25px;
-        font-weight: 700;
-        line-height: 40px;
+        font-size: 35px;
+        text-align: center;
+        letter-spacing: -1px;
+        line-height: 1em;
+        font-weight: 900;
+        
     }
     
     .secc3_big p {
-        font-size: 16px;
+        font-size: 35px;
         font-weight: 500;
         color: #303088;
-        line-height: 20px;
+        line-height: 1em;
+        letter-spacing: -1px;
     }
+    .sec3_pp p{
+        font-style: italic;
+        font-size: 30px;
+    }
+    .sec3_btn p{
+        font-size: 11px;
+        opacity: 0.7;
+        font-weight: normal;
+    }
+    .block_dis {
+        display: none;
+    }
+    .none_dis {
+        padding: 0px 7px 0px 7px;
+    }
+   
     
 }
 
@@ -81,15 +102,28 @@
         margin-bottom: 20px;
     }
     .secc3_big h1{
-        font-size: 60px;
-        font-weight: 700;
-        line-height: 40px;
+        font-size: 52px;
+        
     }
     .secc3_big p{
-        font-size: 40px;
-        font-weight: 500;
+        font-size: 32px;
+        font-weight: 900;
         color: #303088;
-        line-height: 20px;
+    }
+    .sec3_pp p {
+        font-style: italic;
+        
+    }
+    .sec3_btn p {
+        font-size: 18px;
+        opacity: 0.7;
+        font-weight: normal;
+    }
+    .none_dis{
+        display: none;
+    }
+    .block_dis{
+        display: block;
     }
    
 }

@@ -25,17 +25,17 @@ const Section6 = () => {
                     <h1 className='change_color'>The One Funnel Away</h1>
                     <h1 className='change_color'>Challenge Is Different!</h1>
                 </div>
-                <div>
+                <div className='triangle'>
                     <img src={Triangle} alt='image' className= 'img-fluid triangle' />
                 </div>
                 <div>
                     <p><span>The One Funnel Away Challenge is NOT just some “course” that you’ll never use…</span></p>
-                    <p>It combines the right marketing<span className='change_color bold_text'>Knowledge</span></p>
-                    <p>With the SHOVE you need to<span className='change_color bold_text'>EXECUTE</span>your funnel</p>
+                    <p>It combines the right marketing <span className='change_color bold_text'> Knowledge</span></p>
+                    <p>With the SHOVE you need to<span className='change_color bold_text'>EXECUTE</span> your funnel</p>
                     <p><span className='change_color bold_text'></span></p>
                 </div>
                 <div>
-                    <p>And a “no-excuses”  <span className='change_color bold_text'>ACCOUNTABILITY</span>team of coaches
+                    <p>And a “no-excuses”  <span className='change_color bold_text'> ACCOUNTABILITY</span> team of coaches
                     who are caring and supportive, while making sure that you get your tasks done…
                     </p>
                 </div>
@@ -44,7 +44,7 @@ const Section6 = () => {
                 </div>
                 <div>
                     <p>It’s almost NEVER a lack of knowledge that’s the problem...</p>
-                    <h3 className='change_color bold_text'>It’s A Lack Of EXECUTION…</h3>
+                    <h3 className='change_color bold_text big_h333'>It’s A Lack Of EXECUTION…</h3>
                     <p>(or, not executing the right way).</p>
                 </div>
             </div>
@@ -83,6 +83,7 @@ const Section6 = () => {
             <div className='sec6_c_1'>
                 <img src={T2} alt='image' className= 'img-fluid' />
             </div>
+            <br />
             <div className='sec6_c_2'>
                 <div>
                     <h1 className='bold_text change_color'>This Challenge Is</h1>
@@ -112,6 +113,7 @@ const Section6 = () => {
                 </div>
             </div>
         </div>
+        <br />
        
         
     </div>

@@ -31,7 +31,23 @@ const Section7 = () => {
                 </div>
             </div>
             <div className='sec7_c'>
-                <img src={Okay} alt='image' className= 'img-fluid' />
+                <div>
+                    Plus, we also pay our affiliates who refer people to this challenge $100 for anyone they signup. Chances are you found out about this page 
+                    from one of those affiliates. So, <b>we actually lose money for each person who joins the challenge.</b> 
+                </div>
+              
+                <div>
+                    And the few of you who signup without an affiliate telling you about this challenge, 
+                    you probably found out about it because I paid for an ad on Facebook or Youtube to get you here.
+                </div>
+                <div>Either way, I REALLY make very little, and in most cases lose money for each person who joins this challenge. </div>
+                <div><b>So, why would I do this? </b></div>
+                <div>Because we have a philosophy here at ClickFunnels, that <u><b>if we can't make you money, then we don't deserve any of yours. </b></u> </div>
+                <div>So our goal is to help you make money... then hopefully you'll chose 
+                    to re-invest some of those profits back into the products and services that we sell.  </div>
+                <div>
+                    Does that sound more then fair? :)
+                </div>
             </div>
             <div className='sec7_d'>
                 <button>

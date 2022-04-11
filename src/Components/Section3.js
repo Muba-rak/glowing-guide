@@ -29,17 +29,28 @@ const Section3 = () => {
             </div>
             <div className='sec3_btn'>
                 <button>
-                    <h3 className=''>Join the Challenge Now !</h3><p>I want daily training, Live Coaching and accountability from day 1 to day 30</p>
+                    <h3 className=''>Join the Challenge Now!</h3><p>I want daily training, Live Coaching and accountability from day 1 to day 30</p>
                 </button>
                
             </div>
              <br />
         </div>
-        <div className='secc3_big'>
+        <div className='secc3_big none_dis'>
             <br />
             <br />
-            <h1 className='change_color'>Need More Information Before You</h1>
-            <h1 className='change_color'>Make Your Decision...?</h1>
+            <h1 className='change_color'>Need More Information Before You Make Your Decision...?</h1>
+            <h1 className='change_color'></h1>
+            <br />
+            <div>
+                <p className='change_color'>Let Me Break Down All The Awesome Stuff You'll Get When You Join The Challenge Today!</p>
+                <p className='change_color'></p>
+            </div>
+        </div>
+         <div className='secc3_big block_dis '>
+            <br />
+            <br />
+            <h1 className='change_color'>Need More Information Before</h1>
+            <h1 className='change_color'>You Make Your Decision...?</h1>
             <br />
             <div>
                 <p className='change_color'>Let Me Break Down All The Awesome Stuff You'll</p>

@@ -14,9 +14,10 @@ const Section2 = () => {
                 <div className='section2_main'>
                     <div className='section2_main_top'>
                         <div className='sm2_img'>
-                            <img src={Exclamation} alt= 'image' className='img-fluid' />
+                            <img src={Exclamation} alt= 'image' className='img-fluid exclaim' />
 
                         </div>
+                        <br />
                         <div className='sm2_1'>
                             <h1 className="Hsection2_flex_2_p1">Freedom is just </h1>
                             <h1 className="Hsection2_flex_2_p2">One funnel away</h1>
@@ -119,8 +120,10 @@ const Section2 = () => {
                Are you <span className='underline_text'> about to launch your next funnel</span> , and want to make sure it's a <span className='change_color bold_text'>huge success!?!</span>
               </p>
             </div>
+            <br />
           </form>
         </section>
+        <br />
         <div className='section2_dollar'>
             <div className='dollar_h1'>
                 <h1>If You Checked ANY Of The Boxes Above, Then I</h1>
@@ -152,7 +155,7 @@ const Section2 = () => {
                 <div>
                     <img className="Hsection2_div_img_Testimo img-fluid" src={Testimo} alt="" />
                 </div>
-                <h1 className="change_color bold_text"> Then In Exchange For That Tiny $100</h1><h1 className="change_color bold_text"> Investment, You Get ALL Of This: </h1>
+                <h1 className="exchange  change_color bold_text"> Then In Exchange For That Tiny $100</h1><h1 className="exchange  change_color bold_text"> Investment, You Get ALL Of This: </h1>
             </div>
         </div>
             

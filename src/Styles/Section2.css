@@ -6,17 +6,24 @@
         box-sizing: border-box;
     }
     .section2_main{
-        width: 90%;
+        width: 100%;
         margin: auto;
 
+    }
+    .section1_main_2{
+        padding-top: 15px;
     }
     
     .sm2_img{
         width: 230px;
     }
+    .sm_1{
+        padding-top: 10px;
+    }
     .sm2_1{
         border-top: 1px gray solid;
         border-bottom: 1px gray solid;
+        margin-top: 30px;
     }
     .Hsection2_flex_2_p2 {
         font-size: 3em;
@@ -31,7 +38,7 @@
     }
     .section2_main_mid{
         
-        width: 88%;
+        width: 95%;
         margin: auto;
         margin-top: 50px;
        
@@ -41,6 +48,9 @@
         font-size: 20px;
 
 
+    }
+    .exclaim{
+        display: none;
     }
     .change_color{
         color: #002462;
@@ -54,24 +64,30 @@
     .Hsection2_section_3 {
         background-color: #e4eff9;
         border: 3px solid lightblue;
-        width: 80%;
+        width: 100%;
         margin: auto;
         margin-top: 2em;
     }
     .Hsection2_section_3 h2 {
         color: #002462;
-        font-weight: bolder;
-        font-size: 20px;
+        font-weight: 900 !important;
+        font-size: 32px;
+        line-height: 1em;
+        letter-spacing: -1px;
         text-align: center;
-        padding: 02rem;
+        padding: 2rem;
     }
+   
     
     .Hsection2_section_3_form>div {
         display: flex;
         
     }
     form p{
-        font-size: 12px;
+        margin-left: 25px;
+        font-size: 24px;
+        line-height: 1.3em;
+        opacity: 1;
     }
     .Hsection2_section_3_form>div>input {
         margin-right: 1rem;
@@ -82,9 +98,17 @@
     }
     .Hsection2_section_3 input{
         font-size: 25px;
+        -webkit-transform: scale(1.5);
+        margin-left: 15px;
     }
     .Hsection2_section_3_form{
         text-align: left;
+    }
+    .big_p{
+        font-weight: 900;
+        font-size: 65px !important;
+        letter-spacing: -1px;
+        line-height: 1em;
     }
     .dollar_h1{
         margin-bottom: 20px;
@@ -94,6 +118,20 @@
     }
     .dollar_here{
         margin-top: 30px;
+    }
+    .dollar_here h1{
+        color: rgb(0, 36, 98);
+        font-size: 52px !important;
+        letter-spacing: -1px;
+        line-height: 1em;
+        font-weight: 900;
+    }
+    .exchange{
+        font-size: 38px;
+        letter-spacing: -1px;
+        line-height: 1em;
+        font-weight: 900;
+
     }
     
     
@@ -108,10 +146,30 @@
 }
 
 @media (min-width: 1024px) {
+    .section2_main {
+        width: 90%;
+        margin: auto;
+    
+    }
+    .exclaim {
+        display: block;
+    }
+    .Hsection2_section_3 {
+        background-color: #e4eff9;
+        border: 3px solid lightblue;
+        width: 98%;
+        margin: auto;
+        margin-top: 2em;
+    }
     .section2_main_top {
         display: flex;
         justify-content: space-between;
         margin-top: 30px;
+    }
+    form p {
+        font-size: 32px;
+        line-height: 1.3em;
+        opacity: 1;
     }
     
     .sec2_mid_2 img {
@@ -147,8 +205,8 @@
     }
     
     .dollar_here h1 {
-        font-size: 80px;
-        line-height: 80px;
+        font-size: 72px;
+        
     }
     .dollar_pp p{
         font-size: 20px;
@@ -159,6 +217,7 @@
     }
     .big_p{
         font-size: 100px;
+        font-weight: 900;
     }
     .Hsection2_div_img_Testimo {
         width: 40rem;
@@ -168,6 +227,17 @@
     .need_h1 h1{
         font-size: 50px;
         font-weight: 700;
+    }
+    .exchange {
+        font-size: 52px;
+        letter-spacing: -1px;
+        line-height: 1em;
+        font-weight: 900;
+    
+    }
+    .Hsection2_section_3 h2 {
+        font-size: 46px;
+        
     }
     
 }
