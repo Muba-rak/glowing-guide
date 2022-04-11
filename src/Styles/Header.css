@@ -6,7 +6,7 @@
   }
   .header{
     border-bottom: 1px lavender dotted;
-    background-color: blue;
+    background: linear-gradient(135deg, #002462 0, #002462, #0053b7 100%);
   }
   .header img {
     width: 200px;

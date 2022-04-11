@@ -79,7 +79,9 @@ const Section1 = () => {
                         </div>
                     </div>
                 </Col>
+                
             </Row>
+            <br />
         </Container>
 
     </div>

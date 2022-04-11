@@ -5,7 +5,7 @@
     box-sizing: border-box;
   }
   .section1 {
-    background-color: #2f2ff7;
+    background: linear-gradient(135deg, #002462 0, #012d79, #0053b7 100%);
     color: white;
   }
   .section1_main_1 h1 {
@@ -44,7 +44,7 @@
     padding: 0px 10px 0px 10px;
   }
   .section1_main_2 {
-    background-color: #0f0f4d;
+    background-color: #002462;
   }
   .sm_h3 h3{
     font-weight: 300;
