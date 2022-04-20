@@ -7,7 +7,7 @@ import Med from '../images/video.mp4'
 
 const Section1 = () => {
     const countDown = () => {
-    const countDate = new Date("April 17, 2022 00:00:00").getTime();
+    const countDate = new Date("May 2, 2022 00:00:00").getTime();
     const today = new Date().getTime();
     const difference = countDate - today;
     const second = 1000;
@@ -44,7 +44,7 @@ const Section1 = () => {
                         <div className='section1_main_2 col-md-5'>
                             <div className='sm_h3'>
                                 <h3>The Next <span className='bold_text'>'ONE FUNNEL AWAY'</span></h3>
-                                <h3>Challenge Starts On Apr 18th...</h3>
+                                <h3>Challenge Starts On May 2nd...</h3>
                             </div>
                             <img src={Bord} alt='logo' className = 'img-fluid bord' />
                            
@@ -67,7 +67,7 @@ const Section1 = () => {
                                 </div>
                             </div>
                             <div className='sm_h3'>
-                                <h3>Registration Ends Apr 3rd At 10PM ET!</h3>
+                                <h3>Registration Ends May 2nd At 10PM ET!</h3>
                             </div>
                             
                             <div className='sm_h2'>

@@ -36,9 +36,6 @@ const Homepage = () => {
         </div>
         <Section10 />
         <Footer />
-      
-        
-
     </div>
   )
 }
