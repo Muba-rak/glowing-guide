@@ -44,7 +44,7 @@ const Section1 = () => {
                         <div className='section1_main_2 col-md-5'>
                             <div className='sm_h3'>
                                 <h3>The Next <span className='bold_text'>'ONE FUNNEL AWAY'</span></h3>
-                                <h3>Challenge Starts On May 2nd...</h3>
+                                <h3>Challenge Starts On May 2nd....</h3>
                             </div>
                             <img src={Bord} alt='logo' className = 'img-fluid bord' />
                            
