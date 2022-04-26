@@ -49,6 +49,7 @@
         background-color: orangered;
         color: white;
         border-style: none;
+        border-radius: 7px;
     }
     .italic_text{
         font-style: italic;

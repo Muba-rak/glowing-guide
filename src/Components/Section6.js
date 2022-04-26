@@ -55,7 +55,9 @@ const Section6 = () => {
             </div>
             <div className='sec3_btn sec6_btn '>
                 <button>
-                    <h3 className=''>Join the Challenge Now !</h3><p>I want daily training, Live Coaching and accountability from day 1 to day 30</p>
+                    <h3 className='h3_1'> Join the challenge Now </h3>
+                    <h3 className='h3_2'> Start Now! </h3>
+                    <p>I want daily training, Live Coaching and accountability from day 1 to day 30</p>
                 </button>
             </div>
             <div>

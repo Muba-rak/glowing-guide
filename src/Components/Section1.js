@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import '../Styles/Section1.css'
 import Headline from '../images/headline.png'
 import { Container, Row, Col } from 'react-bootstrap'
@@ -24,7 +24,6 @@ const Section1 = () => {
     document.querySelector(".minute").textContent = textMinute;
     document.querySelector(".second").textContent = textSecond;
   };
-
   setInterval(countDown, 1000);
   return (
     <div className='section1'>
@@ -72,10 +71,12 @@ const Section1 = () => {
                             
                             <div className='sm_h2'>
                                 <h2>Join The Challenge Now For A One-Time Discounted Payment Of Only $100</h2>
-                            </div>
-                            
-                           
-                            <button><h3>Join the Challenge Now</h3><p className='btnnn_p'>I want daily training, Live Coaching and accountability from day to day 30</p></button>
+                            </div>       
+                            <button>
+                                <h3 className='h3_1'> Join the challenge Now </h3>
+                                <h3 className='h3_2'> Start Now! </h3>
+                                <p className='btnnn_p'>I want daily training, Live Coaching and accountability from day to day 30</p>
+                            </button>
                         </div>
                     </div>
                 </Col>
